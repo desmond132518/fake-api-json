@@ -1,14 +1,36 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "success": true,
+    "results": [
+        {
+            "_id": "5fe8554170a1a007afbfd326",
+            "description": "The 1st TestGroup created.",
+            "name": "DEC 2020 TestGroups",
+            "organization": [
+                {
+                    "_id": "5fe8652c70a1a007afc21dd2",
+                    "name": "HKIS"
+                }
+            ],
+            "participants": [
+                "5dae19f12615305574184c23",
+                "5dae19f12615305574184e93"
+            ],
+            "test_date": "2020-12-27T00:00:00.000Z"
+        },
+        {
+            "_id": "5fe861ca70a1a007afc1b1cb",
+            "description": "The 2nd TestGroup created.",
+            "name": "DEC 2020 TestGroups for School",
+            "organization": [
+                {
+                    "_id": "5fe8652c70a1a007afc21dd2",
+                    "name": "HKIS"
+                }
+            ],
+            "participants": [
+                "5fe9268a70a1a007afda3d13"
+            ],
+            "test_date": "2020-12-26T00:00:00.000Z"
+        }
+    ]
 }
